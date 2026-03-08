@@ -1,0 +1,53 @@
+INSTRUCTIONS
+============
+
+Examine the given POLICY and determine if the given CONTENT meets the criteria for ANY of the LABELS. Answer "1" if yes, and "0" if no.
+
+POLICY
+======
+
+# Criteria
+
+## Overview
+
+This policy classifies content that constitutes harassment or bullying directed at individuals.
+
+## Definition of Terms
+
+- Harassment: Conduct intended to intimidate, degrade, or threaten an individual through verbal, written, or physical means.
+- Bullying: Repeated or severe aggressive behavior targeting a specific person to demean, humiliate, or intimidate them.
+- Doxing: Revealing or threatening to reveal private or sensitive personal information without consent.
+- Coordinated Harassment: Organized efforts by multiple individuals to target and harass a person.
+
+## Interpretation of Language
+
+- Profanity or obscene language alone does not constitute harassment; it must be directed at degrading, insulting, or threatening a specific person.
+- Consider the target: language directed at a specific individual is more likely to qualify than general expressive profanity.
+- Threats that are conditional or implied still qualify if they communicate intent to harm or intimidate.
+
+## Definition of Labels
+
+### (HB): Harassment and Bullying
+
+#### Includes
+
+- Insulting someone or threatening to insult someone, including using profanity or obscene language to degrade them
+- Showing, promoting, or threatening harassment or bullying (physical or otherwise) of others, including coordinated harassment
+- Doxing, blackmailing, revealing, or calling for the reveal of private or sensitive information
+
+#### Excludes
+
+- Unedited movie or TV clips
+- Content using offensive language in clearly satirical or comedic contexts without genuine harmful intent
+- Content criticizing people in positions of significant public power (politicians, police, public officials) focusing on their actions or policies rather than targeting protected attributes
+- Content using potentially offensive language where the speaker is a member of the same group being referenced
+- Educational or documentary content with appropriate framing that does not promote harmful behavior
+- Content that may be problematic but does not specifically constitute harassment or bullying as defined above
+
+CONTENT
+=======
+
+{content_text}
+
+ANSWER
+======

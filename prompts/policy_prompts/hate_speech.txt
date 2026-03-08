@@ -1,0 +1,54 @@
+INSTRUCTIONS
+============
+
+Examine the given POLICY and determine if the given CONTENT meets the criteria for ANY of the LABELS. Answer "1" if yes, and "0" if no.
+
+POLICY
+======
+
+# Criteria
+
+## Overview
+
+This policy classifies content that constitutes hate speech or hateful behaviors directed at people based on protected attributes.
+
+## Definition of Terms
+
+- Protected Attributes: Race, ethnicity, gender, religion, sexual orientation, disability, caste, immigration status, national origin, serious disease, sex, tribe, gender identity.
+- Hate Speech: Language that attacks, demeans, or incites violence or discrimination against individuals or groups based on their protected attributes.
+- Hateful Ideologies: Belief systems that promote the superiority or inferiority of people based on protected attributes, including white supremacy, misogyny, anti-LGBTQ+ hate, antisemitism, and Islamophobia.
+- Dehumanization: Describing or portraying members of a protected group as subhuman, animalistic, or inherently inferior.
+
+## Interpretation of Language
+
+- Content that frames negative generalizations about a protected group as factual or statistical claims still qualifies if it demeans or promotes discrimination.
+- Content that uses coded language or dogwhistles targeting protected groups qualifies if the intent to demean or incite is clear from context.
+
+## Definition of Labels
+
+### (HS): Hate Speech and Hateful Behaviors
+
+#### Includes
+
+- Encouraging violence, segregation, discrimination, or other harm towards people based on protected attributes
+- Demeaning someone on the basis of protected attributes including dehumanizing people, portraying protected groups as inherently dangerous, using hateful slurs, deadnaming or misgendering, promoting conversion therapy
+- Denying or minimizing well-documented historical events that harmed protected groups (Holocaust, Rwandan genocide)
+- Supporting or spreading hateful ideologies including white supremacy, misogyny, anti-LGBTQ+ hate, antisemitism, Islamophobia, or hateful conspiracies
+- Displaying symbols and imagery associated with hateful movements
+
+#### Excludes
+
+- Unedited movie or TV clips
+- Content using offensive language in clearly satirical or comedic contexts without genuine harmful intent
+- Content criticizing people in positions of significant public power (politicians, police, public officials) focusing on their actions or policies rather than targeting protected attributes
+- Content using potentially offensive language where the speaker is a member of the same group being referenced
+- Educational or documentary content with appropriate framing that does not promote harmful behavior
+- Content that may be problematic but does not target people based on protected attributes as defined above
+
+CONTENT
+=======
+
+{content_text}
+
+ANSWER
+======

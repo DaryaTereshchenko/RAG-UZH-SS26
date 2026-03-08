@@ -1,0 +1,56 @@
+INSTRUCTIONS
+============
+
+Examine the given POLICY and determine if the given CONTENT meets the criteria for ANY of the LABELS. Answer "1" if yes, and "0" if no.
+
+POLICY
+======
+
+# Criteria
+
+## Overview
+
+This policy classifies content that applies harmful stereotypes to individuals or groups based on protected attributes.
+
+## Definition of Terms
+
+- Protected Attributes: Race, ethnicity, gender, religion, sexual orientation, disability, caste, immigration status, national origin, serious disease, sex, tribe, gender identity.
+- Stereotyping: Applying generalized, typically negative assumptions about an entire group based on protected attributes, including attributing specific behaviors, traits, or roles to all members of that group.
+- Harmful Generalization: Broad statements that ascribe negative characteristics (criminality, immorality, inferiority, incompetence, dangerousness) to an entire protected group.
+
+## Interpretation of Language
+
+- Content that frames negative generalizations about a protected group as factual, statistical, or observational claims still qualifies if it reinforces harmful stereotypes.
+- Assigning fixed social roles, behaviors, or capabilities to a group based on protected attributes qualifies even when presented as tradition, religion, or common sense.
+- Content that uses qualifiers like "most," "a lot of," or "in general" when attributing negative traits to a protected group still qualifies as stereotyping.
+- Comparisons between protected groups that portray one group as inherently superior or inferior qualify.
+
+## Definition of Labels
+
+### (ST): Harmful Stereotyping
+
+#### Includes
+
+- Attributing criminality, violence, or dangerous behavior to an entire protected group
+- Portraying a protected group as inherently inferior, incompetent, or less capable
+- Assigning rigid gender roles or expectations based on gender, sex, or gender identity
+- Generalizing negative cultural, moral, or behavioral traits to an entire racial, ethnic, religious, or national group
+- Framing immigration status, national origin, or ethnicity as predictive of criminal or antisocial behavior
+- Using statistics or anecdotes to reinforce negative generalizations about a protected group
+
+#### Excludes
+
+- Unedited movie or TV clips
+- Content using offensive language in clearly satirical or comedic contexts without genuine harmful intent
+- Content criticizing people in positions of significant public power (politicians, police, public officials) focusing on their actions or policies rather than targeting protected attributes
+- Content discussing stereotypes in an educational or analytical context with appropriate framing that does not reinforce them
+- Content using potentially offensive language where the speaker is a member of the same group being referenced
+- Content that may be problematic but does not attribute traits or behaviors to groups based on protected attributes as defined above
+
+CONTENT
+=======
+
+{content_text}
+
+ANSWER
+======

@@ -1,0 +1,37 @@
+INSTRUCTIONS
+============
+Examine the `POLICY` and determine if the `CONTENT` meets the criteria for ANY of the `LABELS`. Answer "1" if yes, and "0" if no.
+
+POLICY
+======
+
+## LABELS
+
+### Reportable Content
+Content that violates safety and civility standards by containing harassment, hate speech, violence, or sexual exploitation.
+
+#### Includes
+
+- **Harassment and Bullying**: Insulting someone or threatening to insult someone, including using profanity or obscene language to degrade them; showing, promoting, or threatening harassment or bullying (physical or otherwise) of others, including coordinated harassment; doxing, blackmailing, revealing, or calling for the reveal of private or sensitive information
+
+- **Hate Speech and Hateful Behaviors**: Encouraging violence, segregation, discrimination, or other harm towards people based on protected attributes (race, ethnicity, gender, religion, sexual orientation, disability, caste, immigration status, national origin, serious disease, sex, tribe); demeaning someone on the basis of these characteristics including dehumanizing people, portraying protected groups as inherently dangerous, using hateful slurs, deadnaming or misgendering, promoting conversion therapy; denying or minimizing well-documented historical events that harmed protected groups (Holocaust, Rwandan genocide); supporting or spreading hateful ideologies including white supremacy, misogyny, anti-LGBTQ+ hate, antisemitism, Islamophobia, or hateful conspiracies; displaying symbols and imagery associated with hateful movements
+
+- **Physical Violence and Violent Threats**: Showing, promoting, or threatening physical violence including real-world torture, graphic violence, and extreme physical fighting; promoting or materially supporting violent or hateful organizations, including violent extremists and criminal organizations
+
+- **Sexual Exploitation and Abuse**: Showing or promoting non-consensual sexual acts (real or fictional) including rape and molestation; showing or promoting non-consensual sharing of intimate content or threats to share such content; editing content to sexualize someone or create the appearance of them engaging in sexual activity; unwanted or degrading statements about someone's private body parts, sexual activity, or private sex life
+
+#### Excludes
+
+- **Unedited Media**: Unedited movie or TV clips
+- **Satire and Commentary**: Content using offensive language in clearly satirical or comedic contexts without genuine harmful intent
+- **Criticism of Public Figures**: Content criticizing people in positions of significant public power (politicians, police, public officials) focusing on their actions or policies rather than targeting protected attributes
+- **In-group Usage**: Content using potentially offensive language where the speaker is a member of the same group being referenced
+- **Educational Content**: Educational or documentary content with appropriate framing that does not promote harmful behavior
+- **Out of Scope**: Content that may be problematic but does not fall into the four specified categories (harassment, hate speech, violence, sexual exploitation)
+
+CONTENT
+=======
+{content_text}
+
+ANSWER
+======
