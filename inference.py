@@ -197,8 +197,8 @@ def main():
     parser.add_argument(
         "--device_map",
         type=str,
-        default="auto",
-        help="Device map for model loading (default: auto).",
+        default="cuda",
+        help="Device map for model loading (default: cuda).",
     )
     args = parser.parse_args()
 

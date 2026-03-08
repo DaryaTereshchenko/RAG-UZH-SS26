@@ -3,3 +3,5 @@ transformers
 peft
 pandas
 scikit-learn
+llama-cpp-python
+huggingface_hub
