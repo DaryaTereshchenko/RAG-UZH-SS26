@@ -16,7 +16,7 @@ import time
 import pandas as pd
 import torch
 from peft import PeftModel
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 # ---------------------------------------------------------------------------
 # Logging setup
@@ -80,11 +80,13 @@ def load_model_and_tokenizer(device_map: str = "auto"):
     logger.info("Loading tokenizer from %s", BASE_MODEL_ID)
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_ID)
 
-    logger.info("Loading base model %s", BASE_MODEL_ID)
+    logger.info("Loading base model %s (4-bit quantized)", BASE_MODEL_ID)
+    quantization_config = BitsAndBytesConfig(load_in_4bit=True)
     model = AutoModelForCausalLM.from_pretrained(
         BASE_MODEL_ID,
         torch_dtype=torch.bfloat16,
         device_map=device_map,
+        quantization_config=quantization_config,
     )
 
     logger.info("Loading LoRA adapter %s", ADAPTER_ID)
