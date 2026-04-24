@@ -1,8 +1,0 @@
-torch
-transformers
-peft
-pandas
-scikit-learn
-llama-cpp-python
-huggingface_hub
-sentencepiece  # required by unitary/multilingual-toxic-xlm-roberta tokenizer
